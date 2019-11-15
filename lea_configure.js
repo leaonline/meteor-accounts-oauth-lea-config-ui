@@ -1,7 +1,8 @@
+import { Meteor } from 'meteor/meteor'
 import { Template } from 'meteor/templating'
 
 Template.configureLoginServiceDialogForLea.helpers({
-  siteUrl: () => Meteor.absoluteUrl(),
+  siteUrl: () => Meteor.absoluteUrl()
 })
 
 Template.configureLoginServiceDialogForLea.fields = () => [

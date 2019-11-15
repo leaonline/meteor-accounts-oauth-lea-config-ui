@@ -1,3 +1,4 @@
+/* eslint-env meteor */
 Package.describe({
   name: 'leaonline:oauth-lea-config-ui',
   version: '1.0.0',
@@ -8,13 +9,13 @@ Package.describe({
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
-});
+})
 
 Package.onUse(api => {
-  api.use('ecmascript@0.12.7', 'client');
-  api.use('templating@1.3.2', 'client');
+  api.use('ecmascript@0.12.7', 'client')
+  api.use('templating@1.3.2', 'client')
 
   api.addFiles(
     ['lea_configure.html', 'lea_configure.js'],
-    'client');
-});
+    'client')
+})
