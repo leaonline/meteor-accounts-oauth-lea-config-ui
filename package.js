@@ -1,7 +1,7 @@
 /* eslint-env meteor */
 Package.describe({
   name: 'leaonline:oauth-lea-config-ui',
-  version: '1.0.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'Configuration package for lea oauth and accounts-ui',
   // URL to the Git repository containing the source code for this package.
